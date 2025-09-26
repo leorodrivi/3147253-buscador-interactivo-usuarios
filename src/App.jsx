@@ -2,7 +2,6 @@ import { useEffect, useState, useCallback } from 'react'
 import Card from './components/Card.jsx'
 import SearchInput from './components/searchinput.jsx'
 
-// Datos de prueba DIRECTAMENTE como array (sin propiedad "usuarios")
 const datosDePrueba = [
   {
     "id": 1,
@@ -560,3 +559,4 @@ export default function App() {
     </div>
   )
 }
+
