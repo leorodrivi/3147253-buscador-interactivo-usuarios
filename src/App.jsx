@@ -513,7 +513,6 @@ export default function App() {
     obtenerUsuarios()
   }, [])
 
-  // Debug para verificar datos
   useEffect(() => {
     console.log('Usuarios en estado:', usuarios)
     console.log('Filtrados en estado:', filtrados)
@@ -559,4 +558,5 @@ export default function App() {
     </div>
   )
 }
+
 
