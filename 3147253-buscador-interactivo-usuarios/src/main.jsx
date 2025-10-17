@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
-          path="/buscador-interactivo-usuarios"
+          path="/3147253-buscador-interactivo-usuarios"
           element={
             <PrivateRoute>
               <App />
